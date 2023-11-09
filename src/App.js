@@ -4,6 +4,8 @@ import {Navbar} from './components/Navbar';
 import {Main} from './components/Main'
 import {About} from './components/About'
 import { ScreenProvider } from './contexts/ScreenSize';
+import { Projects } from './components/Projects';
+import {motion} from 'framer-motion'
 
 
 function App() {
@@ -11,9 +13,10 @@ function App() {
 
     <>
     <ScreenProvider>
-    <Navbar />
-    <Main />
-    <About />
+      <Navbar />
+      <Main />
+      <About />
+      <Projects />
     </ScreenProvider>
     
     </>

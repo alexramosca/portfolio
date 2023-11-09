@@ -3,23 +3,25 @@ import React, { createContext, useContext, useState, useEffect } from 'react';
 const ScreenContext = createContext();
 
 export const ScreenProvider = ({ children }) => {
-    const [isSmallScreen, setIsSmallScreen] = useState(window.innerWidth < 768);
+    const [isPortraitScreen, setIsPortraitScreen] = useState(null);
 
     useEffect(() => {
-        const handleScreenSize = () => {
-          setIsSmallScreen(window.innerWidth < 768);
-        };
-        handleScreenSize();
+      const handleScreenSize = () => {
+        setIsPortraitScreen(window.innerWidth < window.innerHeight);
+        
+      };
+      
+      handleScreenSize();
+      window.addEventListener('resize', handleScreenSize);
+      
+      return () => {
+        window.removeEventListener('resize', handleScreenSize);
+      };
+    }, []);
     
-        window.addEventListener('resize', handleScreenSize);
-    
-        return () => {
-          window.removeEventListener('resize', handleScreenSize);
-        };
-      }, []);
 
       return (
-        <ScreenContext.Provider value={{ isSmallScreen }}>{children}</ScreenContext.Provider>
+        <ScreenContext.Provider value={{ isPortraitScreen }}>{children}</ScreenContext.Provider>
 
       )
 }
