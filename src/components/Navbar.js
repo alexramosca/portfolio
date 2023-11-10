@@ -5,7 +5,7 @@ import {NavLink} from './NavLink'
 export const Navbar = ()=>{
     const [isOpen, setIsOpen] = useState(false);
     const {isPortraitScreen} = useScreenContext();
-    console.log(isPortraitScreen)
+    
 
 
     const handleHambClick = ()=>{
@@ -15,7 +15,7 @@ export const Navbar = ()=>{
     return(
         <>
         <nav className="navbar">
-            <div className="logo">Alex Ramos</div>
+            <div className="logo">&#123; Alex Ramos/ &#125;</div>
             {isPortraitScreen && <div className='hambIcon'>
             <i  onClick={handleHambClick} className={isOpen?'fa fa-times':'fa fa-bars'}></i>
             </div>}

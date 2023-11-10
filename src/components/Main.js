@@ -1,9 +1,9 @@
 import { IconRow } from "./IconRow"
 export const Main = ()=>{
     return(
-        <div className="main">
+        <div id="home" className="main">
             
-            <img src="/images/profile.png" />
+            <img src="/images/profile-md.png" />
            
                 <div className="infoWrapper">
                     <div>
@@ -14,8 +14,8 @@ export const Main = ()=>{
                 
                 
             <div className="buttonsWrapper">
-                <button className="button">Download CV</button>
-                <button className="button">Contact</button>
+                <a href="/downloads/resumeA.pdf" target="new"><button className="button">Download CV</button></a>
+                <a href="mailto:fcn_alexandre@hotmail.com"><button className="button">Contact</button></a>
             </div>
             
             <IconRow />

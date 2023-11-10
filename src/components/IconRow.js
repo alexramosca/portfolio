@@ -6,6 +6,7 @@ export const IconRow = ()=>{
             <img src='icons/react24.png' />
             <img src='icons/node.png' width={24} />
             <img src='icons/js.png' width={24} />
+            <img src='icons/css.png' width={24} />
             <img src='icons/bs.png' width={24} />
             <img src='icons/mysql.png' width={24} />
             <img src='icons/java.png' width={24} />
