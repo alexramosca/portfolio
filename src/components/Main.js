@@ -2,8 +2,9 @@ import { IconRow } from "./IconRow"
 export const Main = ()=>{
     return(
         <div id="home" className="main">
-            
+            <div id="mainImgWrapper">
             <img src="/images/profile-md.png" />
+            </div>
            
                 <div className="infoWrapper">
                     <div>

@@ -21,8 +21,8 @@ export const Footer = ()=>{
                 
             
             <div className="socialRow">
-                <img src='/icons/linkedin.png' />
-                <img src='/icons/github.png' />
+                <a href='https://www.linkedin.com/in/alexandre-ramos-202675283/' target='new'><img src='/icons/linkedin.png' /></a>
+                <a href='https://github.com/alexramosca' target='new'>  <img src='/icons/github.png' /></a>
             </div>
             
         </div>
