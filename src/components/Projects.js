@@ -5,8 +5,8 @@ export const Projects = ()=>{
     const {isPortraitScreen} = useScreenContext();
     let projects = [
         {img: "/icons/camera.png", title: "Photographer Portifolio" , link: "https://alexramosca.github.io/", 
-            desc : "Portifolio designed to photographers. Technologies: JavaScript, HTML, CSS. Current Status:  being rebuilt to include more advanced features."},
-        {img: "/icons/car.png", title: "UTrip" , link: "https://utrip-front-6refb10xz-alexramoscas-projects.vercel.app/",
+            desc : "Portifolio designed to photographers.It was my first project in college. Technologies: JavaScript, HTML, CSS. Current Status:  Being rebuilt to include more advanced features."},
+        {img: "/icons/car.png", title: "UTrip" , link: "https://utrip-front.vercel.app/",
             desc : "Full Stack application. It allows users to share trips across the country. Technologies: React, Node, sequelize. Current Status: Front-end is Online, back-end is under development. Users can log in, view trips on a database, and create their own"},
         {img: "/icons/task.png", title: "Task Management App" , link: "#",
             desc : "Elevate your productivity with our task management app. Current Status: Under Development"},
