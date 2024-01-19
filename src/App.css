@@ -1,10 +1,12 @@
 /*variables*/
 :root{
   --primaryColor: #14213D;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  
 }
 
 *{
-  font-family: 'Poppins', sans-serif;
+ 
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -132,7 +134,7 @@ body::-webkit-scrollbar-track {
 }
 
 .main>div>img{
-  width: clamp(240px, 40vw, 470px);
+  width: clamp(240px, 38vw, 470px);
   border-radius: 10%;
   z-index: 1;
   

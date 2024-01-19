@@ -1,4 +1,4 @@
-import 'font-awesome/css/font-awesome.min.css';
+
 import { useScreenContext } from '../contexts/ScreenSize';
 import {useState, useEffect} from 'react'
 import {NavLink} from './NavLink'
