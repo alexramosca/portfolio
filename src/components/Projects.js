@@ -13,7 +13,7 @@ export const Projects = ()=>{
             img: "/icons/museum.png", 
             title: "Museum Transcript System", 
             link: "https://transcribe.frederictonregionmuseum.com/",
-            desc: "This is a real-world project aimed at improving the transcription system for the Fredericton Region Museum. Technologies include JavaScript, PHP, Ajax, HTML, and Bootstrap. Currently under development, addressing transcription system enhancements and optimizations." 
+            desc: "This is a real-world project aimed at improving the transcription system for the Fredericton Region Museum. Technologies include JavaScript, PHP, Ajax, HTML, and Bootstrap. Currently under development, addressing transcription system enhancement." 
         },
         { 
             img: "/icons/bank.png", 

@@ -84,24 +84,6 @@ body::-webkit-scrollbar-track {
   
 }
 
-.proj, .project-md{
-  position: relative;
-    transition: all 0.5s ease-in-out;
-    &:hover{
-      &.project:after{
-        content: "UNDER DEVELOPMENT";
-        position: absolute;
-        height: 100%;
-        width: 100%;
-        color: #f5f5f5;
-        text-align: center;
-        background-color:  rgba(0, 0, 0, 0.1);
-       
-        
-      
-      }
-    }
-  }
 
 .hambIcon>i{
   transform: scale(2);
@@ -282,6 +264,10 @@ body::-webkit-scrollbar-track {
   color: black;
 }
 
+.project-md:hover, .project:hover{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
 
 .project{
   display: flex;
@@ -292,11 +278,12 @@ body::-webkit-scrollbar-track {
   color: black;
   border-radius: 8px;
   padding: 4rem 2rem;
-  gap: 3rem;
+  gap: 4rem;
   margin: 2rem;
-  height: 60vh;
-  aspect-ratio: 3/4;
-  text-align: justify;
+  height: auto;
+  
+  
+ 
   
 }
 
@@ -312,7 +299,6 @@ body::-webkit-scrollbar-track {
 .projectsWrapper-md{
   display: grid;
   border-radius: 10px;
- 
   grid-template-columns: repeat(2, clamp(150px, 50%, 300px));
   grid-template-rows: repeat(2, 1fr);
   justify-content: center;
@@ -325,18 +311,20 @@ body::-webkit-scrollbar-track {
 
 
 
-.project-md>img{
-  height: 15%;
+.project-md>img, .project>img{
+  height: clamp(40px, 10vw, 70px);
 }
-.project-md>h2{
+.project-md>h2, .project>h2{
+  text-align: center;
   height: 10%;
 }
-.project-md>p{
-  height: 40%;
+.project-md>p, .project>p{
+  text-align: justify;
+  height: 30%;
 }
-.project-md>a{
+.project-md>a, .project>a{
   display: block;
-  height: 15%;
+  height: 48%;
   color: red;
 }
 
