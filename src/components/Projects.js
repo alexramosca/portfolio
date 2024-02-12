@@ -24,7 +24,7 @@ export const Projects = ()=>{
         { 
             img: "/icons/task.png", 
             title: "Task Management App", 
-            link: "#",
+            link: "https://github.com/alexramosca/taskmanager.git",
             desc: "Back-end application providing a REST API for task management. Built with Node.js, Sequelize, and optimized database design. Currently in the development phase, focusing on REST API implementation and database management features." 
         }
     ];
