@@ -7,7 +7,7 @@ export const About = ()=>{
         
          className="about" id="about">
             <div className="imgTxtWrapper">
-            <img id="aboutImg" src={isPortraitScreen?"/images/about-sm1.jpg":"/images/about.png"} />
+            <img id="aboutImg" src={isPortraitScreen?"/images/about-sm1.png":"/images/about.png"} />
             
             <div className="aboutTxt">
             <h4 ><span className="highlight">About me</span></h4>
