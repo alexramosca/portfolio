@@ -20,7 +20,7 @@ export const Main = ()=>{
                 
                 
             <div className="buttonsWrapper">
-                <a href="/downloads/resumeA.pdf" target="new"><button className="button">Download CV</button></a>
+                <a href="/downloads/resume.pdf" target="new"><button className="button">Download CV</button></a>
                 <a href="mailto:fcn_alexandre@hotmail.com"><button className="button">Contact</button></a>
             </div>
             
