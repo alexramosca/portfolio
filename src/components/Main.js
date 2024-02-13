@@ -3,7 +3,12 @@ export const Main = ()=>{
     return(
         <div id="home" className="main">
             <div id="mainImgWrapper">
-            <img src="/images/profile-md.png" />
+            <img 
+                src="/images/profile-md-min.png"
+                srcSet="/images/profile-md.png"
+                alt="Description of the image"
+            />
+
             </div>
            
                 <div className="infoWrapper">

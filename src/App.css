@@ -123,7 +123,7 @@ body::-webkit-scrollbar-track {
   
 }
 
-#mainImgWrapper{
+/*#mainImgWrapper{
     position: relative;
     &:after{
       content: "";
@@ -135,7 +135,7 @@ body::-webkit-scrollbar-track {
       bottom: 0;
       left: 0;
     }
-}
+}*/
 
 .infoWrapper{
   display: flex;
@@ -265,7 +265,9 @@ body::-webkit-scrollbar-track {
 }
 
 .project-md:hover, .project:hover{
+    transform: scale(1.05);
     background-color: rgba(0, 0, 0, 0.3);
+    transition: all 0.5s ease;
 }
 
 
