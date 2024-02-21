@@ -6,8 +6,8 @@ export const Projects = ()=>{
         { 
             img: "/icons/car.png", 
             title: "UTrip", 
-            link: "https://utrip-front.vercel.app/",
-            desc: "Full stack application that allows users to share trips across the country. Technologies used include React, Node.js, and Sequelize. The front-end is online, and back-end development is in progress. Users can log in, view trips in a database, and create their own." 
+            link: "https://utrip-apiv1.onrender.com/",
+            desc: "Full stack application that allows users to share trips across the country. Technologies used include React, Node.js, and Sequelize." 
         },
         { 
             img: "/icons/museum.png", 
